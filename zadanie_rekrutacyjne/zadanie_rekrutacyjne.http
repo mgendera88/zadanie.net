@@ -1,0 +1,6 @@
+﻿@zadanie_rekrutacyjne_HostAddress = https://localhost:32769
+
+
+GET {{zadanie_rekrutacyjne_HostAddress}}/todos
+
+###

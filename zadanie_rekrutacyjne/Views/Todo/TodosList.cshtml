@@ -1,0 +1,162 @@
+﻿@model IEnumerable<Todo>
+@{
+    ViewData["Title"] = "Todos";
+    var today = ViewBag.Today as IEnumerable<Todo>;
+    var tomorrow = ViewBag.Tomorrow as IEnumerable<Todo>;
+    var week = ViewBag.Week as IEnumerable<Todo>;
+}
+<h1>Todos</h1>
+<div class="getall">
+    <h2>All of your tasks:</h2>
+    <table>
+        <tr>
+            <td> Title </td>
+            <td> Description </td>
+            <td> DueTime </td>
+            <td> Is the task complete? </td>
+            <td> Percentage done </td>
+        </tr>
+        
+    @foreach (var todo in Model)
+    {
+        <tr>
+            <td style="display:none">@todo.Id</td>
+            <td> @todo.Title </td>
+            <td> @todo.Description </td>
+            <td> @todo.DueTime </td>
+            <td> @todo.isComplete </td>
+            <td> @todo.percent_done% </td>
+            <td><input type="button" value="edit" onclick="editTodo(@todo.Id)"/><input type="button" value="delete" onclick="deleteTodo(@todo.Id)"/></td>
+        </tr>
+    }
+   </table>
+</div>
+<div class="incoming">
+    <h2>Tasks coming soon:</h2>
+    <h5>Tasks due today:</h5>
+    <table>
+        <thead>
+            <tr>
+                <td> Title </td>
+                <td> Description </td>
+                <td> DueTime </td>
+                <td> Is the task complete? </td>
+                <td> Percentage done </td>
+                <td> Actions </td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var todo in today)
+            {
+                <tr>
+                    <td>@todo.Title</td>
+                    <td>@todo.Description</td>
+                    <td>@todo.DueTime</td>
+                    <td>@todo.isComplete</td>
+                    <td>@todo.percent_done%</td>
+                    <td>
+                        <input type="button" value="edit" onclick="editTodo(@todo.Id)"/>
+                        <input type="button" value="delete" onclick="deleteTodo(@todo.Id)" />
+                    </td>
+                </tr>
+                <tr id="editRow-@todo.Id" style="display: none;">
+                    <td><input type="text" id="Title-@todo.Id" value="@todo.Title" /></td>
+                    <td><input type="text" id="Description-@todo.Id" value="@todo.Description" /></td>
+                    <td><input type="datetime-local" id="DueTime-@todo.Id" value="@todo.DueTime.ToString("yyyy-MM-ddTHH:mm")" /></td>
+                    <td>
+                        <input type="checkbox" id="isComplete-@todo.Id" @(todo.isComplete ? "checked" : "") />
+                    </td>
+                    <td><input type="number" id="percent_done-@todo.Id" value="@todo.percent_done" /></td>
+                    <td>
+                        <button class="btn btn-success" onclick="saveTodo(@todo.Id)">Save</button>
+                        <button class="btn btn-secondary" onclick="cancelEdit(@todo.Id)">Cancel</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <h5>Tasks due tomorrow:</h5>
+    <table>
+        <thead>
+            <tr>
+                <td>Title</td>
+                <td>Description</td>
+                <td>DueTime</td>
+                <td>Is the task complete?</td>
+                <td>Percentage done</td>
+                <td>Actions</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var todo in tomorrow)
+            {
+                <tr>
+                    <td>@todo.Title</td>
+                    <td>@todo.Description</td>
+                    <td>@todo.DueTime</td>
+                    <td>@todo.isComplete</td>
+                    <td>@todo.percent_done%</td>
+                    <td>
+                        <input type="button" value="edit" onclick="editTodo(@todo.Id)" />
+                    <input type="button" value="delete" onclick="deleteTodo(@todo.Id)" />
+                    </td>
+                </tr>
+                <tr id="editRow-@todo.Id" style="display: none;">
+                    <td><input type="text" id="Title-@todo.Id" value="@todo.Title" /></td>
+                    <td><input type="text" id="Description-@todo.Id" value="@todo.Description" /></td>
+                    <td><input type="datetime-local" id="DueTime-@todo.Id" value="@todo.DueTime.ToString("yyyy-MM-ddTHH:mm")" /></td>
+                    <td>
+                        <input type="checkbox" id="isComplete-@todo.Id" @(todo.isComplete ? "checked" : "") />
+                    </td>
+                    <td><input type="number" id="percent_done-@todo.Id" value="@todo.percent_done" /></td>
+                    <td>
+                        <button class="btn btn-success" onclick="saveTodo(@todo.Id)">Save</button>
+                        <button class="btn btn-secondary" onclick="cancelEdit(@todo.Id)">Cancel</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <h5>Tasks due this week:</h5>
+    <table>
+        <thead>
+            <tr>
+                <td> Title </td>
+                <td> Description</td>
+                <td>DueTime</td>
+                <td>Is the task complete?</td>
+                <td>Percentage done</td>
+                <td>Actions</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var todo in week)
+            {
+                <tr>
+                    <td>@todo.Title</td>
+                    <td>@todo.Description</td>
+                    <td>@todo.DueTime</td>
+                    <td>@todo.isComplete</td>
+                    <td>@todo.percent_done%</td>
+                    <td>
+                        <input type="button" value="edit" onclick="editTodo(@todo.Id)" />
+                        <input type="button" value="delete" onclick="deleteTodo(@todo.Id)"/>
+                    </td>
+                </tr>
+                <tr id="editRow-@todo.Id" style="display: none;">
+                    <td><input type="text" id="Title-@todo.Id" value="@todo.Title" /></td>
+                    <td><input type="text" id="Description-@todo.Id" value="@todo.Description" /></td>
+                    <td><input type="datetime-local" id="DueTime-@todo.Id" value="@todo.DueTime.ToString("yyyy-MM-ddTHH:mm")" /></td>
+                    <td>
+                        <input type="checkbox" id="isComplete-@todo.Id" @(todo.isComplete ? "checked" : "") />
+                    </td>
+                    <td><input type="number" id="percent_done-@todo.Id" value="@todo.percent_done" /></td>
+                    <td>
+                        <button class="btn btn-success" onclick="saveTodo(@todo.Id)">Save</button>
+                        <button class="btn btn-secondary" onclick="cancelEdit(@todo.Id)">Cancel</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

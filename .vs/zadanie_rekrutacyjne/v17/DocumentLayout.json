@@ -1,0 +1,242 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|c:\\users\\gembc\\onedrive\\dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|solutionrelative:zadanie_rekrutacyjne\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|c:\\users\\gembc\\onedrive\\dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|solutionrelative:zadanie_rekrutacyjne\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|c:\\users\\gembc\\onedrive\\dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\views\\todo\\createtodo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|solutionrelative:zadanie_rekrutacyjne\\views\\todo\\createtodo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|c:\\users\\gembc\\onedrive\\dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\views\\todo\\todoslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|solutionrelative:zadanie_rekrutacyjne\\views\\todo\\todoslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|c:\\users\\gembc\\onedrive\\dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|solutionrelative:zadanie_rekrutacyjne\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|c:\\users\\gembc\\onedrive\\dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|solutionrelative:zadanie_rekrutacyjne\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|c:\\users\\gembc\\onedrive\\dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|solutionrelative:zadanie_rekrutacyjne\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|c:\\users\\gembc\\onedrive\\dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|solutionrelative:zadanie_rekrutacyjne\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|c:\\users\\gembc\\onedrive\\dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|solutionrelative:zadanie_rekrutacyjne\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|c:\\users\\gembc\\onedrive\\dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|solutionrelative:zadanie_rekrutacyjne\\zadanie_rekrutacyjne.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|c:\\users\\gembc\\onedrive\\dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|solutionrelative:zadanie_rekrutacyjne\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|c:\\users\\gembc\\onedrive\\dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|solutionrelative:zadanie_rekrutacyjne\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|c:\\users\\gembc\\onedrive\\dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\todobaza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BCAF2E-F1CE-490D-A780-6E022DFB1657}|zadanie_rekrutacyjne\\zadanie_rekrutacyjne.csproj|solutionrelative:zadanie_rekrutacyjne\\todobaza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodosList.cshtml",
+              "DocumentMoniker": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Views\\Todo\\TodosList.cshtml",
+              "RelativeDocumentMoniker": "zadanie_rekrutacyjne\\Views\\Todo\\TodosList.cshtml",
+              "ToolTip": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Views\\Todo\\TodosList.cshtml",
+              "RelativeToolTip": "zadanie_rekrutacyjne\\Views\\Todo\\TodosList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T19:56:03.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateTodo.cshtml",
+              "DocumentMoniker": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Views\\Todo\\CreateTodo.cshtml",
+              "RelativeDocumentMoniker": "zadanie_rekrutacyjne\\Views\\Todo\\CreateTodo.cshtml",
+              "ToolTip": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Views\\Todo\\CreateTodo.cshtml",
+              "RelativeToolTip": "zadanie_rekrutacyjne\\Views\\Todo\\CreateTodo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T22:55:09.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "zadanie_rekrutacyjne\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "zadanie_rekrutacyjne\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T20:24:20.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "zadanie_rekrutacyjne\\Controllers\\TodoController.cs",
+              "ToolTip": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "zadanie_rekrutacyjne\\Controllers\\TodoController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAqwCIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:44:26.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "zadanie_rekrutacyjne\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "zadanie_rekrutacyjne\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T17:51:20.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "zadanie_rekrutacyjne\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "zadanie_rekrutacyjne\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-04T19:34:36.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Todo.cs",
+              "RelativeDocumentMoniker": "zadanie_rekrutacyjne\\Todo.cs",
+              "ToolTip": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Todo.cs",
+              "RelativeToolTip": "zadanie_rekrutacyjne\\Todo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T17:19:33.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Program.cs",
+              "RelativeDocumentMoniker": "zadanie_rekrutacyjne\\Program.cs",
+              "ToolTip": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Program.cs",
+              "RelativeToolTip": "zadanie_rekrutacyjne\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T17:01:47.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "zadanie_rekrutacyjne.http",
+              "DocumentMoniker": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne.http",
+              "RelativeDocumentMoniker": "zadanie_rekrutacyjne\\zadanie_rekrutacyjne.http",
+              "ToolTip": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne.http",
+              "RelativeToolTip": "zadanie_rekrutacyjne\\zadanie_rekrutacyjne.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-02T18:08:14.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\appsettings.json",
+              "RelativeDocumentMoniker": "zadanie_rekrutacyjne\\appsettings.json",
+              "ToolTip": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\appsettings.json",
+              "RelativeToolTip": "zadanie_rekrutacyjne\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-02T18:20:09.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "zadanie_rekrutacyjne\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "zadanie_rekrutacyjne\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAABwAAAAAAAAAAAAqwDgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-05T00:04:17.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "zadanie_rekrutacyjne\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "zadanie_rekrutacyjne\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T18:39:06.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ToDoBaza.cs",
+              "DocumentMoniker": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\ToDoBaza.cs",
+              "RelativeDocumentMoniker": "zadanie_rekrutacyjne\\ToDoBaza.cs",
+              "ToolTip": "C:\\Users\\gembc\\OneDrive\\Dokumenty\\zadanie_rekrutacyjne\\zadanie_rekrutacyjne\\ToDoBaza.cs",
+              "RelativeToolTip": "zadanie_rekrutacyjne\\ToDoBaza.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T17:17:25.607Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

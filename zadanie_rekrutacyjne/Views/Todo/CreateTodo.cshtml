@@ -1,0 +1,13 @@
+﻿@model zadanie_rekrutacyjne.Todo;
+@{
+	ViewData["Title"] = "AddTodo";
+}
+<form asp-action="AddTodo" method="post">
+	<div class="todoform">Title: <input type="text" id="Title" name="Title" value="@Model?.Title" required/></div>
+	<div class="form">Description: <input type="text" id="Description" name="Description" value="@Model?.Description" required/></div>
+	<div class="todoform">Due Time: <input type="date" id="DueTime" name="DueTime" value="@Model?.DueTime.ToString("yyyy-MM-ddTHH:mm")" required/></div>
+	<div class="todoform">Is Complete ? <input type="checkbox" id="isComplete" name="isComplete" value="true" @(Model?.isComplete)==true ? "checked" : ""/>
+     <input type="hidden" name="isComplete" value="false"/></div>
+	<div class="todoform">Percentage done: <input type="number" id="percent_done" name="percent_done" value="@Model?.percent_done" required /></div>
+	<button type="submit">Add todo</button>
+</form>
